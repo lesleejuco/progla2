@@ -1,27 +1,24 @@
 #include<iostream>
 using namespace std;
 
-struct person{
-	
+struct Person{
 	int toes;
 	int knees;
 	int shoulder;
 	int head;
-
-	 };
-   
-int main ()
+	};
+  int main ()
    {
    	
 		person person;
 		{
-		cout<<"toes"<<endl;
+		cout<<"Person toes"<<endl;
 		cin>>person.toes;
-		cout<<"knees"<<endl;
+		cout<<"Person knees"<<endl;
 		cin>>person.knees;
-		cout<<"shoulder"<<endl;
+		cout<<"Person shoulder"<<endl;
 		cin>>person.shoulder;
-		cout<<"head"<<endl;
+		cout<<"Person head"<<endl;
 		cin>>person.head;
 	   }
 		return 0;
